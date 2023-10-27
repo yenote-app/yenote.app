@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ts-node ./scripts/build.ts",
+    "start": "ts-node ./scripts/start.ts",
     "_build": "webpack --mode=production --node-env=production",
     "_build:dev": "webpack --mode=development",
     "_build:prod": "webpack --mode=production --node-env=production",
@@ -37,6 +38,7 @@
     "express": "^4.18.2",
     "glob": "^10.3.10",
     "html-webpack-plugin": "^5.5.3",
+    "memfs": "^4.6.0",
     "mini-css-extract-plugin": "^2.7.6",
     "prettier": "^3.0.3",
     "sass": "^1.69.5",
