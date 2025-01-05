@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Monorepo for yenote application project",
   "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  },
   "directories": {
     "doc": "docs"
   },
